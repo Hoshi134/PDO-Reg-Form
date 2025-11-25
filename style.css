@@ -1,0 +1,136 @@
+/* GENERAL PAGE STYLE */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* HEADER TITLE */
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #37474f;
+    font-weight: 600;
+}
+
+/* FORM CONTAINER */
+form {
+    width: 430px;
+    background: white;
+    padding: 25px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* INPUT FIELDS */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #fafafa;
+    transition: 0.2s ease-in-out;
+}
+
+input:focus {
+    border-color: #1e88e5;
+    background: #fff;
+    box-shadow: 0 0 3px #1e88e5;
+    outline: none;
+}
+
+/* BUTTONS */
+button, a.button {
+    background: #1e88e5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+}
+
+button:hover,
+a.button:hover {
+    background: #1565c0;
+}
+
+/* TABLE STYLE */
+table {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+table th {
+    background: #1e88e5;
+    color: white;
+    padding: 14px;
+    letter-spacing: 0.5px;
+}
+
+table td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+table tr:hover {
+    background: #f1f7ff;
+}
+
+/* ACTION BUTTONS */
+.action-btn {
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.edit {
+    background: #43a047;
+}
+
+.edit:hover {
+    background: #2e7d32;
+}
+
+.delete {
+    background: #e53935;
+}
+
+.delete:hover {
+    background: #b71c1c;
+}
+
+/* ADD NEW BUTTON */
+.add-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background: #1e88e5;
+    padding: 12px 22px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.add-btn:hover {
+    background: #1565c0;
+}
